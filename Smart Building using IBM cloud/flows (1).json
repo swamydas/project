@@ -1,0 +1,1 @@
+[{"id":"ac5c7d37.9b92c","type":"function","z":"9cda888e.140988","name":"","func":"msg.payload={\"ultrasonic\":global.get(\"ultrasonic\"),\"flame\":global.get(\"flame\"),\"smoke\":global.get(\"smoke\"),\"ldr\":global.get(\"ldr\")}\nreturn msg;","outputs":1,"noerr":0,"x":338.5,"y":465,"wires":[["c90ffc4.13b83"]]}]
